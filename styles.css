@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(assets/feu_bg.jpg);
+	background-size: cover;
+}
+.Login{
+	width: 400px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.Login img{
+	margin-right: 50%;
+	width: 180px;
+}
+.Login_header-link{
+	text-align: right;
+	position: relative;
+	bottom: 100px;
+}
+.Login_header-link a{
+	color: white;
+}
+.Login_header-link a:hover{
+	color: white;
+}
+.Login input[type="text"],.Login input[type="password"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 1px solid black;
+	padding: 14px 10px;
+	width: 100%;
+	height: 45px;
+	outline: none;
+	color: black;
+	border-radius: 6px;
+}
+.Login input[type="text"]:focus,.Login input[type="password"]{
+	width: 100%;
+	border-color: gray;
+	transition: all 0.2 ease-out;
+}
+.username{
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	display: block;
+	font-size: 1rem;
+}
+.password{
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	display: block;
+	font-size: 1rem;
+}
+.Login_actions{
+	text-align: left;
+	color: white;
+}
+.Forgot_pass a{
+	text-align: left;
+	color: white;
+	font-size: 17px;
+}
+.Forgot_pass a:hover{
+	color: white;
+}
+.Sub_button input[type="submit"]{
+	background: none;
+	display: block;
+	position: relative;
+	left: 209px;
+	bottom: 47px;
+	vertical-align: middle;
+	border: 1px solid white;
+	padding: 8px 43px;
+	outline:none;
+	color: white;
+	border-radius: 6px;
+	transition: 0.2px;
+	cursor: pointer;
+}
+.Sub_button input[type="submit"]:hover{
+	background-color: gray;
+	opacity: 0.75;
+	transition: background 0.25s ease;
+}

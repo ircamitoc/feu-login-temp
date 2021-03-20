@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<!---- BOOTSTRAP CSS ---->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!---- JAVASCRIPT ---->
+	<script src="authenticate.js"></script>
+	<title>FEU Canvas Login</title>
+</head>
+<body>
+	<div class="Login">
+		<div class="Login_container">
+			<div class="Login_content">
+				<div class="Login_inner-content">
+					<!--Start of Header-->
+					<div class="Login_header">
+						<div class="Login_header-logo">
+							<img src="assets/feulogo.png">
+						</div>
+						<div class="Login_header-link">
+							<a href="url"><u>Browse courses</u></a>
+						</div>
+					</div>
+					<!--End of Header-->
+					<!--Start of Body-->
+					<div class="Login_body">
+						<form class="box" action="feulogin.html" method="post">
+							<div class="Login_user">
+								<label class="username">Username</label>
+								<input type="text" name="" id="username">
+							</div>
+							<div class="Login_pass">
+								<label class="password">Password</label>
+								<input type="password" name="" id="password">			
+							</div>
+							<div class="Login_actions">
+								<input type="checkbox" value="1">
+								<label class="check">Stay signed in</label>
+								<div class="Forgot_pass">
+									<a href="url"><u>Forgot Password?</u></a>
+								</div>
+								<div class="Sub_button">
+									<input type="submit" name="" value="Log In" onclick="validate()">
+								</div>
+							</div>
+						</form>
+					</div>
+					<!--End of Body-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
